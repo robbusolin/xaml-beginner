@@ -13,7 +13,11 @@
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
 
-        <Button Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"  Content="**Clear All Orders**" />
+        <AppBar  HorizontalContentAlignment="Left" HorizontalAlignment="Stretch" RequestedTheme="Dark" ClosedDisplayMode="Minimal">
+            <AppBarButton x:Name="AppButtonHome" Icon="Home" Label="Home" HorizontalAlignment="Left" Click="AppButtonHome_Click" />
+        </AppBar>
+
+        <Button Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" RequestedTheme="Dark"  Content="**Clear All Orders**" />
 
 
     </Grid>

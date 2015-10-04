@@ -23,8 +23,8 @@
         <TextBlock Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Foreground="White" Text="Internal Test Version" FontSize="22" />
  
 
-        <Button Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"  Content="**Go To Orders View**" />
-        <Button Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Content="**Submit Order**"  />
+        <Button x:Name="ordersView" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Content="**Go To Orders View**" RequestedTheme="Dark" Click="ordersView_Click" />
+        <Button x:Name="submitOrder" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Content="**Submit Order**" RequestedTheme="Dark" Click="submitOrder_Click" />
 
 
 
